@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-1{
+  width: 170px;
+  border-radius: 50%;
+}
+
+.home-side-bar{
+  height: 100%;
+  position: fixed;
+  padding: 20px;
+  padding-right: 30px;
+  border: 3px solid #465927e4;
+  /* border-right: 2px solid #465927e4; */
+  font-size: 20px;
+  background-color: #465927e4;
+}
+
+.home-side-bar a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  transform: translateY(600%) translateX(20%);
+}
+
+.form-display{
+  margin-left: 500px;
+  padding-top: 150px;
+}
+
+.form-display h1{
+  font-size: 25px;
+  margin-left: 125px;
+}
+
+.text-area{
+  width: 500px;
+  padding: 10px;
+  margin-top: 15px;
+  /* border: 2px solid #465927e4; */
+  box-shadow: 3px 3px 10px 0px #465927e4;
+  border: none;
+}
+
+.btnAdd{
+  margin-top: 30px;
+  margin-left: 220px;
+  padding: 10px 30px 10px 30px;
+  background-color: #465927e4;
+  border: none;
+  font-weight: bold;
+  border-radius: 5%;
+}
+
+.AddQuestion-title h1{
+  font-size: 30px;
+  margin-left: 650px;
+  margin-top: 40px;
+}
+
+.question-container{
+  font-size: 30;
+  margin-left: 500px;
+  margin-top: 20px;
+  padding-top: 0;
+  /* border: 2px solid #465927e4; */
+  box-shadow: 3px 3px 10px 0px #465927e4;
+  width: 500px;
+  padding: 10px;
+  display: flex;
+}
+
+.question-container input{
+  border: none;
+  color: black;
+}
+
+.fa-trash {
+  margin-left: auto;
+  padding-top: 3px;
+  color: #465927e4;
+}
+
+.fa-pencil {
+  margin-left: 250px;
+  margin-right: 30px;
+  padding-top: 3px;
+  color:#465927e4;
+}
+
+
+/* .message-container{
+  white-space: nowrap;
+}
+
+.message-radio{
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+} */
+/* ------------------ Questionnaire.js CSS------------------------------ */
+.message-radio{
+  padding-left: 30px;
+  margin-top: 20px;
+  color: #465927e4;
+}
+
+.form-2{
+  margin-left: 300px;
+  padding-top: 120px;
+}
+
+.form-2 h1{
+  margin-left: 400px;
+}
+
+.form-questions{
+  margin-top: 160px;
+}
+
+.message-inline{
+  /* border: 2px solid #465927e4; */
+  border: none;
+  box-shadow: 3px 3px 10px 0px #465927e4;
+  width: 500px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.btnSubmit{
+  margin-top: 100px;
+  margin-left: 450px;
+  padding: 10px 40px 10px 40px;
+  background-color: #465927e4;
+  border: none;
+  font-weight: bold;
+  border-radius: 5%;
+}
+
+
+/*  ----------- Dashboard.js CSS --------------------------------- */
+
+.card{
+  display: flex;
+  margin-top: 175px;
+  margin-right: 80px;
+}
+
+.card-container{
+  flex: 1;
+  box-sizing: border-box;
+  /* border: 2px solid #465927e4; */
+  box-shadow: 3px 3px 10px 0px #465927e4;
+  padding: 20px;
+  margin: 10px;
+}
+
+/*  ----------- Dashboard.js CSS --------------------------------- */
+
+.form-display-Change{
+  margin-left: 500px;
+  padding-top: 150px;
+}
+
+.form-display-Change h1{
+  font-size: 25px;
+  margin-left: 150px;
+}
