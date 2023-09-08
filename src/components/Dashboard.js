@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './Assets/kkgoadi.png';
-import { useState } from 'react';
-import Questionnaire from './Questionnaire';
+
 
 function Dashboard({ radioCount}) {
     
